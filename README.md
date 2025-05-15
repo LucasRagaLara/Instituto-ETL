@@ -85,6 +85,14 @@ C:\Users\<nombre-usuario>\Documents\Docker\Data\NiFi\in\
 - Para la conexión con MySQL, revise el controlador `DBCPConnectionPoolInstituto`.
 - Se recomienda ejecutar el flujo de manera progresiva en lugar de ejecutar todos los pasos a la vez.
 
+## URL para acceder al NiFi
+
+https://localhost:8443/nifi/login
+
+### Credenciales
+   - User: nifi
+   - Password: nifinifinifi
+
 ## PASO 4 - Power BI
 
 ### Requisitos previos
