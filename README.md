@@ -17,7 +17,19 @@ Este proyecto contiene una arquitectura basada en contenedores Docker que integr
 
    C:\Users\<nombre-usuario>\Documents\Docker\
 
-2. Desde esa misma carpeta, ejecutar:
+2. Asegúrese de que existe la siguiente estructura de carpetas dentro de la ruta anterior:
+
+   C:\Users\<nombre-usuario>\Documents\Docker\Data\
+
+   Dentro de `Data` deben existir las siguientes subcarpetas:
+
+   - `nifi`
+   - `mysql`
+   - `mongo`
+
+   Estas carpetas serán utilizadas como volúmenes para almacenar datos persistentes de los servicios respectivos.
+
+3. Desde esa misma carpeta, ejecutar:
 
    docker compose up -d  
    docker compose ps
